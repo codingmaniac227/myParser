@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import Navbar from "~/components/Navbar";
+import {resumes} from "../../constants";
 
 
 export function meta({}: Route.MetaArgs) {
@@ -19,5 +20,11 @@ export default function Home() {
         <h2>Analyze your resume against any job description and get instant, AI-driven tips to stand out.</h2>
       </div>
     </section>
+
+    {resumes.map(resume => (
+        <div>
+          <h1>{resume.jobTitle}</h1>
+        </div>
+    ))}
   </main>;
 }
