@@ -1,18 +1,18 @@
 export const resumes: Resume[] = [
     {
         id: "1",
-        companyName: "Netflix",
-        jobTitle: "Full Stack Engineer",
-        imagePath: "/images/resume-4.png",
-        resumePath: "/resumes/resume-4.pdf",
+        companyName: "Google",
+        jobTitle: "Frontend Developer",
+        imagePath: "/images/resume-1.png",
+        resumePath: "/resumes/resume-1.pdf",
         feedback: {
-            overallScore: 92,
+            overallScore: 85,
             ATS: {
-                score: 95,
+                score: 90,
                 tips: [],
             },
             toneAndStyle: {
-                score: 88,
+                score: 90,
                 tips: [],
             },
             content: {
@@ -20,76 +20,76 @@ export const resumes: Resume[] = [
                 tips: [],
             },
             structure: {
-                score: 87,
+                score: 90,
                 tips: [],
             },
             skills: {
-                score: 93,
+                score: 90,
                 tips: [],
             },
         },
     },
     {
         id: "2",
-        companyName: "Shopify",
-        jobTitle: "Backend Developer",
-        imagePath: "/images/resume-5.png",
-        resumePath: "/resumes/resume-5.pdf",
+        companyName: "Microsoft",
+        jobTitle: "Cloud Engineer",
+        imagePath: "/images/resume-2.png",
+        resumePath: "/resumes/resume-2.pdf",
         feedback: {
-            overallScore: 68,
+            overallScore: 55,
             ATS: {
-                score: 72,
+                score: 90,
                 tips: [],
             },
             toneAndStyle: {
-                score: 65,
+                score: 90,
                 tips: [],
             },
             content: {
-                score: 70,
+                score: 90,
                 tips: [],
             },
             structure: {
-                score: 62,
+                score: 90,
                 tips: [],
             },
             skills: {
-                score: 71,
+                score: 90,
                 tips: [],
             },
         },
     },
     {
         id: "3",
-        companyName: "Spotify",
-        jobTitle: "Frontend Engineer",
-        imagePath: "/images/resume-6.png",
-        resumePath: "/resumes/resume-6.pdf",
+        companyName: "Apple",
+        jobTitle: "iOS Developer",
+        imagePath: "/images/resume-3.png",
+        resumePath: "/resumes/resume-3.pdf",
         feedback: {
-            overallScore: 80,
+            overallScore: 75,
             ATS: {
-                score: 85,
+                score: 90,
                 tips: [],
             },
             toneAndStyle: {
-                score: 77,
+                score: 90,
                 tips: [],
             },
             content: {
-                score: 79,
+                score: 90,
                 tips: [],
             },
             structure: {
-                score: 82,
+                score: 90,
                 tips: [],
             },
             skills: {
-                score: 81,
+                score: 90,
                 tips: [],
             },
         },
     },
-]
+];
 
 export const AIResponseFormat = `
       interface Feedback {
